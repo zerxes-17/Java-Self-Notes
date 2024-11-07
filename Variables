@@ -1,0 +1,13 @@
+// VARIABLES: Integer, Double, Boolean, Char, String, Printing Variables
+
+public class Main {
+    public static void main(String[] args) 
+    {
+       int x = 123;  //integer
+       double y = 3.14;  // double
+       boolean z = false; // boolean: true or false
+       char symbol = '@'; // character (must be single quotes)
+       String name = "Andrew"; //string from the reference data type, so capital letter String, and double quotes
+       System.out.println("Hello " + name); // to print variables
+    }
+}
