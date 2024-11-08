@@ -1,0 +1,16 @@
+// SWAPPING TWO VARIABLES
+public class Main {
+    public static void main(String[] args) 
+    {
+       String x = "water"; 
+       String y = "Kool-Aid";
+       String temp; 
+       
+       temp = x; // temp has water
+       x = y; // x has kool aid
+       y = temp; // y has water
+       
+       System.out.println("x: " + x);
+       System.out.println("y: " + y);
+    }
+}
